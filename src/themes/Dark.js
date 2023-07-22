@@ -1,4 +1,4 @@
-export const Log = (msg) => {
+export const Log = (msg, type) => {
   return (
     <div class="ql-draggable-container">
         <div class="ql-window-controls">

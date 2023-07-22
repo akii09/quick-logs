@@ -1,3 +1,6 @@
+/*
+    Here added draggable modal js code
+*/
 const draggableContainer = document.querySelector('.ql-draggable-container');
 let isDragging = false;
 let offsetX, offsetY;
