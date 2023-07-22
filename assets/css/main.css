@@ -1,6 +1,73 @@
 body {
-  background-color: #000;
-  color: #fff;
+  font-family: "Fira Code", monospace;
+  background-color: #fff;
+  color: #000;
 }
+
+.ql-dark-logger-container {
+  height: 325px;
+  width: 525px;
+  border-radius: 12px;
+  color: #fff;
+  padding: 5px 25px;
+  overflow-y: scroll;
+  background-color: #000;
+}
+
+/* Style the draggable container */
+.ql-draggable-container {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  cursor: grab;
+}
+
+/* Style the resize handle */
+.ql-resize-handle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #777;
+  cursor: se-resize;
+}
+
+/* Rest of the CSS remains the same */
+/* Style the window controls */
+.ql-window-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  margin: 10px 25px 0 0;
+}
+
+/* Style the Windows close and minimize icons */
+.ql-windows-close,
+.ql-windows-minimize {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* Add the OS-wise icons for Windows and iOS */
+.ql-windows-close {
+  background-image: url("../icons/windows-close-icon.png");
+  filter: brightness(0) invert(1);
+  /* Add other styling specific to the Windows close icon */
+}
+
+.ql-windows-minimize {
+  background-image: url("../icons/windows-minimize-icon.png");
+  filter: brightness(0) invert(1);
+  /* Add other styling specific to the Windows minimize icon */
+}
+
+/* Add iOS-specific styles for close and minimize buttons */
+/* You can use iOS-specific font icons or SVG icons here */
 
 /*# sourceMappingURL=main.css.map */

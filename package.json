@@ -8,12 +8,13 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "sass": "sass --watch ./assets/sass/main.scss ./assets/css/main.css",
-    "test": "jest"
+    "docs": "documentation build main.js -f html -o docs"
   },
   "keywords": [],
   "author": "Akash Pise (akii)",
   "license": "ISC",
   "devDependencies": {
+    "documentation": "^14.0.2",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
